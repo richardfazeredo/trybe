@@ -1,5 +1,9 @@
 #!/bin/bash
+
 #Vou ter muito sucesso na programação!
+
+#Eu sou Tryber e...
+
 
 #Exercício 1
 echo "Shell Script é demais!"
