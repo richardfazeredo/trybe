@@ -1,10 +1,10 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-let maiorNumero;
+let higherNumber;
 for (let i = 0; i < numbers.length; i += 1) {
-  if(i > maiorNumero || i == 0){
-    maiorNumero = numbers[i];
+  if(numbers[i] > higherNumber || i == 0){
+    higherNumber = numbers[i];
   }
 }
 
-console.log(maiorNumero);
+console.log(higherNumber);
